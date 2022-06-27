@@ -1,110 +1,170 @@
 # Adv Auto Filter Bot V2
-
 <p align="center">
-  <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/stargazers">
-    <img src="https://img.shields.io/github/stars/CrazyBotsz/Adv-Auto-Filter-Bot-V2?style=social">
 
-  </a>
-  
-  <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/fork">
-    <img src="https://img.shields.io/github/forks/CrazyBotsz/Adv-Auto-Filter-Bot-V2?label=Fork&style=social">
+  <img src="https://telegra.ph/file/9564d9a1611cd4003231d.jpg" alt="filmy duniya">
 
-  </a>  
 </p>
 
-__This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot)..__
+<h1 align="center">
 
-__Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button__
+  <b>file-filter-bot</b>
 
+</h1>
 
-## Usage
+[![Stars](https://img.shields.io/github/stars/saikat5699/file-filter-bot?style=flat-square&color=orange)](https://github.com/saikat5699/file-filter-bot/stargazers)
 
-**__How To Use Me!?__**
+[![Forks](https://img.shields.io/github/forks/saikat5699/file-filter-bot?style=flat-square&color=blue)](https://github.com/saikat5699/file-filter-bot/fork)
 
-* -> Add me to any group and make me admin<br>
-* -> Add me to your channel as admin with full previlages
+[![Size](https://img.shields.io/github/repo-size/saikat5699/file-filter-bot?style=flat-square&color=black)](https://github.com/saikat5699/file-filter-bot)   
 
-**Bot Commands (Works Only In Groups) :**
+[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=110)](https://github.com/saikat5699/file-filter-bot)   
 
+## Features
 
-  * -> `/add chat_id`<br>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-OR
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- To establish a connection of group with a channel (Bot should be admin with full previlages in both group and channel)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/add @Username`
+- [x] Auto Filter
 
+- [x] Manual Filter
 
-  * -> `/del chat_id`<br>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-OR 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- To delete a group's coneection with a channel (Use disable option from settigns pannel for disconnecting temporarily instead of deleteing)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp; `/del @Username`
+- [x] IMDB
 
+- [x] Admin Commands
 
-  * -> `/delall`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - To delete all connections of a group and deletes all its file from DB
-  
-  * -> `/settings`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  To disaply a Settings Pannel Instance which can be used to tweek bot's settings accordingly
+- [x] Broadcast
 
-    * -> Channel - Button will show you all the connected chats with the group along with there index buttons correspnding to there order for furthur controls...
+- [x] Index
 
-    * -> Filter Types - Button will show you the 3 filter types available in bot... Pressing each buttons will either enable or disable them and this will take into action as soon as you use them...without the need of a restart....
+- [x] IMDB search
 
-    * -> Configure - Button will help you to change no. of pages/ buttons per page/ total result without acutally editing the repo... Also it provide option to Enable/Disable  showing Invite Link in each results
+- [x] Inline Search
 
-    * -> Status - Button will show the stats of your current group
+- [x] Random pics
 
-### Pre Requisites 
-------------------
-* ->__Your Bot Token From [@BotFather](http://www.telegram.dog/BotFather)__
+- [x] ids and User info 
 
-* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@UseTGXBot](http://www.telegram.dog/UseTGXBot)__
+- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 
-* ->__Your User Session String Obtained From [@PyrogramStringBot](http://www.telegram.dog/PyrogramStringBot)__
+- [x] Spelling Check Feature
 
-* ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
+## Variables
 
-#### PR's Are Very Welcome
+### Required Variables
+
+* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
+
+* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
+
+* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+
+* `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
+
+* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
+
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
+
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this 
+
+* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+
+### Optional Variables
+
+* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 
 ## Deploy
+
 You can deploy this bot anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://youtu.be/KTearEPhumc)**</i>
+<i>**[HOW TO DEPLOY WTCH THIS VIDEO...](https://youtu.be/v7Vbu3u_VrE)**</i>
 
 <details><summary>Deploy To Heroku</summary>
+
 <p>
+
 <br>
-<a href="https://github.com/AlbertEinsteinTG/af-deploy-script">
+
+<a href="https://heroku.com/deploy?template=https://github.com/saikat5699/file-filter-botv5">
+
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+
 </a>
+
 </p>
+
 </details>
 
 <details><summary>Deploy To VPS</summary>
+
 <p>
+
 <pre>
-git clone https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2
-cd Adv-Auto-Filter-Bot-V2
+
+git clone https://github.com/saikat5699/file-filter-botv5
+
+# Install Packages
+
 pip3 install -r requirements.txt
-# Change The Vars Of bot/__init__.py File Accordingly
-python3 -m bot
+
+Edit info.py with variables as given below then run bot
+
+python3 bot.py
+
 </pre>
+
 </p>
+
 </details>
 
-## Support   
-Join Our [Telegram Group](https://www.telegram.dog/CrazyBotszGrp) For Support/Assistance And Our [Channel](https://www.telegram.dog/CrazyBotsz) For Updates.   
-   
-Report Bugs, Give Feature Requests There..   
-Do Fork And Star The Repository If You Liked It.
+## Commands
 
-## Disclaimer
-[![GNU Affero General Public License v3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL v3.0.](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/blob/main/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
+```
 
+• /logs - to get the rescent errors
 
-## Credits
+• /stats - to get status of files in db.
 
- - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
- - Thanks To SpEcHiDe For His Awesome [DeleteMessagesRoBot](https://github.com/SpEcHiDe/DeleteMessagesRoBot)
- - [Thanks To Me 👀](https://github.com/AlbertEinsteinTG)
+* /filter - add manual filters
+
+* /filters - view filters
+
+* /connect - connect to PM.
+
+* /disconnect - disconnect from PM
+
+* /del - delete a filter
+
+* /delall - delete all filters
+
+* /deleteall - delete all index(autofilter)
+
+* /delete - delete a specific file from index.
+
+* /info - get user info
+
+* /id - get tg ids.
+
+* /imdb - fetch info from imdb.
+
+• /users - to get list of my users and ids.
+
+• /chats - to get list of the my chats and ids 
+
+• /index  - to add files from a channel
+
+• /leave  - to leave from a chat.
+
+• /disable  -  do disable a chat.
+
+* /enable - re-enable chat.
+
+• /ban  - to ban a user.
+
+• /unban  - to unban a user.
+
+• /channel - to get list of total connected channels
+
+• /broadcast - to broadcast a message to saikat users
+
+```
+
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 👉 [Saikat Jana](https://t.me/Saikatjana1)                                                                                                                                                                                 
+
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 👉 [filmy Duniya](https://t.me/+NsvM4ZfpUcIzMjZl)
